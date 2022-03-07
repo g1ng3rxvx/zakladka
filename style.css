@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF8DC;
+    color: #800000;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;     		
+    padding: 5px;
+    height: 40px;
+    background:
+    url("https://cdn-icons-png.flaticon.com/128/6982/6982885.png") no-repeat 0% 40%;
+}
+nav a {
+    color: #800000;
+    font-size: 15px;
+    padding: 3px;
+    margin: 10px;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+aside {
+    color: black;
+    float: right; 
+    width: 20%;
+    margin-top: 90px;
+    padding: 30px;
+    border: 2px dotted navy;
+    background-color: white;
+    font-size: 19px;
+}
+span a{
+    text-decoration:underline;
+}
+aside p{
+    text-align: center;
+    font-size: 18px;
+}
+aside span, aside h2{
+    color:red;
+}
+.b {
+    color: darkslateblue;
+}
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+}
+.otzv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalog article {
+    border-left: 5px solid #800000;
+}
+.catalog a {
+    display: block; 
+    text-decoration: none;
+    background-color: #8B4513;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.catalog h4 {
+    font-size: 20px;
+}
+.news article, .catalog article {
+    width: 20%;
+    margin: 5%;
+    background-color: #FFDEAD;
+    padding: 20px;
+}
+.news article {
+    border: 5px double #800000;    
+}
+.news {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: #800000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer td {
+    margin: 5px;
+    padding: 2px;
+}
+footer a {
+    margin: 12.5px;
+
+}
+div {
+    display: flex;
+    justify-content:flex-start;
+}
+
+
